@@ -4,46 +4,46 @@ layoutClass: 'm-home-layout'
 
 hero:
   name: James Zow
-  text: Personal blog website
-  tagline: full-time entrepreneur, Java full stack development, Rust enthusiast
+  text: 个人博客网站
+  tagline: 全职创业者，Java全栈开发，Rust爱好者
   #  image:
   #    src:
   #    alt:
   actions:
-    - text: My articles
-      link: /articles/
-    - text: Navigation bar
+    - text: 我的文章
+      link: /books/
+    - text: 导航栏
       link: /nav/
       theme: alt
 features:
   - icon: 📖
-    title: Reading Book notes
-    details: Organizing some notes from books I have read, </br>I think it's a pleasure to flip through them in my spare time.
-    link:
-    linkText: books notes
+    title: 读书笔记
+    details: 整理一些我读过的书籍笔记，</br>闲暇时翻翻，觉得挺有乐趣。
+    link: /books/
+    linkText: 书籍笔记
   - icon: 📘
-    title: Source Code Reading
-    details: The source code for some technical frameworks includes design patterns, principles, and some interesting implementation details.
-    link:
-    linkText: codes reading
+    title: 源码阅读
+    details: 一些技术框架的源码，包括设计模式、原理，以及一些有趣的实现细节。
+    link: /codes/
+    linkText: 源码阅读
   - icon: 💡
-    title: Inspiration Records
-    details: Some of the inspirations I have received in life. It's a good idea to record them.
-    link:
-    linkText: inspiration
+    title: 灵感记录
+    details: 生活中得到的一些灵感。
+    link: /ideas/
+    linkText: 灵感
   - icon: 🧰
-    title: Development Tools
-    details: I personally use some commonly used technology development tools. If you want to try them out, you can click to read and take a look.
-    link:
-    linkText: development tools
+    title: 开发工具
+    details: 我个人使用的一些常用技术开发工具，如果您想尝试的话，可以点击查看一下。
+    link: /tools/
+    linkText: 开发工具
   - icon: 🐞
-    title: Bug Records
-    details: Although some of the bugs may seem unbelievable and foolish, it prevents me from making the same mistakes frequently
-    link:
-    linkText: bug records
+    title: Bug记录
+    details: 虽然有些bug看起来难以置信，有些愚蠢，但是防止我频繁犯同样的错误。
+    link: /bugs/
+    linkText: bugs 记录
   - icon: 💯
-    title: The Road to Entrepreneurship
-    details: Slow down big things and persist in achieving them.
+    title: 创业之路
+    details: 大事慢做，坚持到底。
     link: https://wansenai.com
 ---
 

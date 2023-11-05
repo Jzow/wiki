@@ -7,18 +7,18 @@ type NavData = {
 
 export const NAV_DATA: NavData[] = [
   {
-    title: 'Tools',
+    title: '常用工具',
     items: [
       {
         icon: 'https://tinypng.com/images/apple-touch-icon.png',
         title: 'TinyPNG',
-        desc: 'Online image compression tool',
+        desc: '在线图片压缩工具',
         link: 'https://tinypng.com',
       },
       {
         icon: '/icons/json-cn.ico',
-        title: 'Json Parsing',
-        desc: 'JSON online parsing and formatting verification',
+        title: 'Json 中文网',
+        desc: 'JSON 在线解析及格式化验证',
         link: 'https://www.json.cn',
       },
     ],

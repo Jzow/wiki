@@ -1,20 +1,36 @@
 import type {DefaultTheme, LocaleSpecificConfig} from 'vitepress'
-import {sidebar} from "./sidebar";
+import {enSidebar, sidebar} from "./sidebar";
 
-export const enNav: DefaultTheme.Config['nav'] = [
-  { text: 'Navigation bar', link: '/nav/' },
-  { text: 'Book notes', link: '/articles/' },
+export const zhNav: DefaultTheme.Config['nav'] = [
+  { text: '导航栏', link: '/nav/' },
+  { text: '读书笔记', link: '/book/' },
   {
-    text: 'Template reference',
+    text: 'Bug记录',
+    items: [
+      { text: 'Kotlin', link: '/bugs/kotlin/variable' },
+      { text: 'Java', link: '/bugs/java/' },
+    ],
+    activeMatch: '^/bugs',
+  },
+  {
+    text: '模板引用',
     link: 'https://github.com/maomao1996/vitepress-nav-template',
   },
 ]
 
-export const zhNav: DefaultTheme.Config['nav'] = [
-  { text: '导航栏', link: '/zh/nav/' },
-  { text: '读书笔记', link: '/zh/articles/' },
+export const enNav: DefaultTheme.Config['nav'] = [
+  { text: 'Navigation bar', link: '/en/nav/' },
+  { text: 'Book notes', link: '/en/books/' },
   {
-    text: '模板引用',
+    text: 'Bug Records',
+    items: [
+      { text: 'Kotlin', link: '/en/bugs/kotlin/variable' },
+      { text: 'Java', link: '/en/bugs/java/' },
+    ],
+    activeMatch: '^/en/bugs',
+  },
+  {
+    text: 'Template reference',
     link: 'https://github.com/maomao1996/vitepress-nav-template',
   },
 ]
@@ -27,7 +43,7 @@ export const enConfig: LocaleSpecificConfig = {
     i18nRouting: true,
     /* logo: '/logo.png',*/
     nav: enNav,
-    sidebar,
+    enSidebar,
     /* 右侧大纲配置 */
     outline: {
       level: 'deep',
