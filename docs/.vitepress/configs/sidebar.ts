@@ -15,22 +15,52 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '类型转换', link: '' },
       ],
     },
+  ],
+  'books/': [
+    {
+      text: '卡耐基',
+      items: [
+        { text: '《人性的优点》读后感言', link: '/books/r1' },
+      ],
+    },
+    {
+      text: '凯文凯利',
+      collapsed: false,
+      items: [
+        { text: '《500天后的世界》', link: '' },
+      ],
+    },
   ]
 }
 
 export const enSidebar: DefaultTheme.Config['sidebar'] = {
-  'bugs/': [
+  'en/bugs/': [
     {
       text: 'Kotlin',
       items: [
-        { text: '关于kotlin的变量问题', link: '/bugs/kotlin/variable' },
+        { text: 'On the Variable Problem of Kotlin', link: 'en/bugs/kotlin/variable' },
       ],
     },
     {
       text: 'Java',
       collapsed: false,
       items: [
-        { text: '类型转换', link: '' },
+        { text: 'Type conversion', link: '' },
+      ],
+    },
+  ],
+  'en/books/': [
+    {
+      text: 'Dale Carnegie',
+      items: [
+        { text: '"How to Stop Worrying and Start Living"', link: 'en/books/r1' },
+      ],
+    },
+    {
+      text: 'Kevin Kelly',
+      collapsed: false,
+      items: [
+        { text: '"The World After 500 Days"', link: '' },
       ],
     },
   ]

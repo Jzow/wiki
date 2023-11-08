@@ -11,15 +11,15 @@ hero:
   #    alt:
   actions:
     - text: My articles
-      link: /books/
+      link: /en/books/r1
     - text: Navigation bar
-      link: /nav/
+      link: /en/nav/
       theme: alt
 features:
   - icon: 📖
     title: Reading Book notes
     details: Organizing some notes from book I have read, </br>I think it's a pleasure to flip through them in my spare time.
-    link:
+    link: /en/books/r1
     linkText: book notes
   - icon: 📘
     title: Source Code Reading

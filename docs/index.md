@@ -11,7 +11,7 @@ hero:
   #    alt:
   actions:
     - text: 我的文章
-      link: /books/
+      link: /books/r1
     - text: 导航栏
       link: /nav/
       theme: alt
@@ -19,7 +19,7 @@ features:
   - icon: 📖
     title: 读书笔记
     details: 整理一些我读过的书籍笔记，</br>闲暇时翻翻，觉得挺有乐趣。
-    link: /books/
+    link: /books/r1
     linkText: 书籍笔记
   - icon: 📘
     title: 源码阅读

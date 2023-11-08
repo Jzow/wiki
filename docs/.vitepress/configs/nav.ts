@@ -3,7 +3,13 @@ import {enSidebar, sidebar} from "./sidebar";
 
 export const zhNav: DefaultTheme.Config['nav'] = [
   { text: '导航栏', link: '/nav/' },
-  { text: '读书笔记', link: '/book/' },
+  { text: '读书笔记',
+    items: [
+      { text: '卡耐基', link: '/books/r1' },
+      { text: '凯文凯利', link: '/books/' },
+    ],
+    activeMatch: '^/books',
+  },
   {
     text: 'Bug记录',
     items: [
@@ -20,7 +26,14 @@ export const zhNav: DefaultTheme.Config['nav'] = [
 
 export const enNav: DefaultTheme.Config['nav'] = [
   { text: 'Navigation bar', link: '/en/nav/' },
-  { text: 'Book notes', link: '/en/books/' },
+  {
+    text: 'Book notes',
+    items: [
+      { text: 'Dale Carnegie', link: '/en/books/r1' },
+      { text: 'Kevin Kelly', link: '/en/books/' },
+    ],
+    activeMatch: '^/en/books',
+  },
   {
     text: 'Bug Records',
     items: [
