@@ -2,7 +2,14 @@ import type {DefaultTheme, LocaleSpecificConfig} from 'vitepress'
 import {enSidebar, sidebar} from "./sidebar";
 
 export const zhNav: DefaultTheme.Config['nav'] = [
-  { text: '导航栏', link: '/nav/' },
+  { text: '工具栏', link: '/nav/' },
+  { text: '我的文章',
+    items: [
+      { text: 'Ken Labs黑客松', link: '/articles/ipfs' },
+      { text: '首次参加BP', link: '/articles/bp1' },
+    ],
+    activeMatch: '^/articles',
+  },
   { text: '读书笔记',
     items: [
       { text: '卡耐基', link: '/books/r1' },
@@ -17,15 +24,17 @@ export const zhNav: DefaultTheme.Config['nav'] = [
       { text: 'Java', link: '/bugs/java/' },
     ],
     activeMatch: '^/bugs',
-  },
-  {
-    text: '模板引用',
-    link: 'https://github.com/maomao1996/vitepress-nav-template',
-  },
+  }
 ]
 
 export const enNav: DefaultTheme.Config['nav'] = [
-  { text: 'Navigation bar', link: '/en/nav/' },
+  { text: 'Tool Navigation bar', link: '/en/nav/' },
+  { text: 'My articles',
+    items: [
+      { text: 'First time participating in financing and entrepreneurship competition', link: '' },
+    ],
+    activeMatch: '^/en/articles',
+  },
   {
     text: 'Book notes',
     items: [
@@ -41,10 +50,6 @@ export const enNav: DefaultTheme.Config['nav'] = [
       { text: 'Java', link: '/en/bugs/java/' },
     ],
     activeMatch: '^/en/bugs',
-  },
-  {
-    text: 'Template reference',
-    link: 'https://github.com/maomao1996/vitepress-nav-template',
   },
 ]
 

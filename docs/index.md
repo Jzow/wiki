@@ -11,8 +11,8 @@ hero:
   #    alt:
   actions:
     - text: 我的文章
-      link: /books/r1
-    - text: 导航栏
+      link: /articles/bp1
+    - text: 工具栏
       link: /nav/
       theme: alt
 features:

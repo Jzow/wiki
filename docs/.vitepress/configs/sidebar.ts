@@ -1,6 +1,15 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
+  'articles/': [
+    {
+      text: '比赛',
+      items: [
+        { text: 'KEN Labs元宇宙黑客松', link: '/articles/ipfs' },
+        { text: '西安曲江数字经济大赛', link: '/articles/bp1' },
+      ],
+    },
+  ],
   'bugs/': [
     {
       text: 'Kotlin',
