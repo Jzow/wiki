@@ -5,8 +5,8 @@ export const zhNav: DefaultTheme.Config['nav'] = [
   { text: '工具栏', link: '/nav/' },
   { text: '我的文章',
     items: [
-      { text: 'Ken Labs黑客松', link: '/articles/ipfs' },
-      { text: '首次参加BP', link: '/articles/bp1' },
+      { text: '算法', link: '/articles/binary' },
+      { text: '比赛', link: '/articles/ipfs' },
     ],
     activeMatch: '^/articles',
   },

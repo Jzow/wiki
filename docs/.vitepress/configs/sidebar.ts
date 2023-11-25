@@ -3,6 +3,12 @@ import type { DefaultTheme } from 'vitepress'
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   'articles/': [
     {
+      text: '算法',
+      items: [
+        { text: '二分算法', link: '/articles/binary' },
+      ],
+    },
+    {
       text: '比赛',
       items: [
         { text: 'KEN Labs元宇宙黑客松', link: '/articles/ipfs' },

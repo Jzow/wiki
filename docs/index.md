@@ -11,7 +11,7 @@ hero:
   #    alt:
   actions:
     - text: 我的文章
-      link: /articles/bp1
+      link: /articles/binary
     - text: 工具栏
       link: /nav/
       theme: alt
