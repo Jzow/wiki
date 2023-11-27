@@ -4,11 +4,11 @@ layoutClass: 'm-home-layout'
 
 hero:
   name: James Zow
-  text: 个人博客网站
-  tagline: 全职创业者，Java全栈开发，Rust爱好者
-  #  image:
-  #    src:
-  #    alt:
+  text: 创业者、SDE、Rust
+  tagline: 我正在学习机械设计的基础知识，包括传感器检测和执行器、深度学习 (CV方向)、神经网络、嵌入式系统设计和微控制器接口。
+  image:
+    src: me.png
+    alt: James Zow
   actions:
     - text: 我的文章
       link: /articles/binary

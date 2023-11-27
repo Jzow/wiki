@@ -4,11 +4,11 @@ layoutClass: 'm-home-layout'
 
 hero:
   name: James Zow
-  text: Personal website
-  tagline: full-time entrepreneur, SDE, Rust enthusiast
-  #  image:
-  #    src:
-  #    alt:
+  text: full-time entrepreneur, SDE, Rust enthusiast
+  tagline: Currently, I am studying the fundamentals of mechanical design, including sensor detection and actuators, deep learning (CV direction), Neural networks, embedded system design, and microcontroller interfaces.
+  image:
+    src: me.png
+    alt: James Zow
   actions:
     - text: My articles
       link: /en/books/r1

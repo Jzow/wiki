@@ -59,7 +59,7 @@ export const enConfig: LocaleSpecificConfig = {
   description: 'My Personal Blog',
   themeConfig: {
     i18nRouting: true,
-    /* logo: '/logo.png',*/
+    logo: '/me.png',
     nav: enNav,
     enSidebar,
     /* 右侧大纲配置 */
@@ -92,7 +92,7 @@ export const zhConfig: LocaleSpecificConfig = {
   /* 主题配置 */
   themeConfig: {
     i18nRouting: true,
-    /* logo: '/logo.png',*/
+    logo: '/me.png',
     nav: zhNav,
     langMenuLabel: 'zh-CN',
     sidebar,
